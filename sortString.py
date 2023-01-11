@@ -1,5 +1,5 @@
 inputs_number = int(input())
-a = []
+sortedlist = []
 while inputs_number > 0:
     inputs_number -= 1
     numbers = input().split()
@@ -8,5 +8,5 @@ while inputs_number > 0:
 
 print()
 
-for s in a:
-    print(*s)
+for i in sortedlist:
+    print(*i)
