@@ -5,7 +5,8 @@ while inputs_number > 0:
     numbers = input().split()
     numbers.sort(key=len, reverse=True)
     a.append(numbers)
+
 print()
-print()
+
 for s in a:
     print(*s)
